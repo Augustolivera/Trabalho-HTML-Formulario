@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <style>
+            body{
+                background-color:rgb(19, 32, 66);
+                margin:20px;
+                padding:20px;
+                text-align: center;
+            }
+        
+        header{
+        font-family: Verdana;
+        font-size: 20px;
+        color:white;
+        text-align:center;
+        background-color:rgb(78, 79, 134);
+        border-radius:5px;          
+        }
+    
+        main{
+            text-align: left;
+            display:inline-block;
+        }
+        p{
+            font-family:Verdana;
+            font-size:15;
+            color:white
+        }
+        a{
+            color: brown;
+            text-decoration: none;
+        }
+        fieldset{
+            display: inline-block;
+            border-radius: 20px;
+            color: aliceblue;
+            font-family:Verdana;
+           
+        }
+        .form{
+            font-family:verdana;
+            font-size:13px;
+            
+
+        }
+
+        footer{
+            color: aliceblue;
+            text-align: right;
+            font-size: 20px;
+            font-family: verdana;
+            background-color: rgb(78, 79, 134);
+            border-radius: 8px;
+        }
+    </style>
+
+    
+
+
+
+</head>
+<body>
+    <header>
+        <h1> Site</h1>
+    
+    <a href="home.html" style="color: white; font-size:30px"> Voltar para o inicio</a>
+    </header>
+    <br>
+    <main>
+        
+        <fieldset>
+            <legend> Cadastro</legend>
+        <form action="">
+        <p>
+        <label for:nome> Nome:</label>
+        <input id="nome" type="text">
+    </p>
+    
+    <p>
+        <label for:email> Email:</label>
+        <input id="email" type="email">
+    </p>
+    
+    <p>
+        <label for:senha> Senha:</label>
+        <input id="senha" type="password">
+    </p>
+    
+    <p>
+        <label for:datanasc> Data de nascimento:</label>
+        <input id="datanasc " type="date">
+    </p>
+    <p>Gênero :</p>
+    <p>
+        
+        <label for:sexo> Masculino: </label>
+        <input id="masc" type="radio" name="sexo"> <br>
+        <label for:sexo> Feminino: </label>
+        <input id="fem" type="radio" name="sexo"><br>
+        <label for:sexo> Indefinido: </label>
+        <input id="indef" type="radio" name="sexo">
+    </p>
+
+    <p>
+        
+        <label for:fund> Ensino fundamental completo: </label>
+        <input id="fund" type="checkbox" name="fund"> <br>
+        <label for:med> Ensino médio completo </label>
+        <input id="med" type="checkbox" name="med"><br>
+        <label for:sup> Ensino superior completo: </label>
+        <input id="indef" type="checkbox" name="sup">
+    </p>
+    
+</fieldset>
+<br><br>
+    <input class="form" type="submit" value="enviar">
+      
+    <input class="form" type="reset" value="limpar">
+</form>
+
+    <p>
+        Já tem conta? Clique <a href="pag2.html"> Aqui</a> para logar
+    </p>
+
+</main>
+
+    <footer>
+        <h2>Site, 2023</h2>
+    </footer>
+
+</body>
+</html>
